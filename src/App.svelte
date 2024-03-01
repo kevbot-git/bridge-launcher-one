@@ -2,6 +2,11 @@
   import svelteLogo from './assets/svelte.svg'
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
+  import { onMount } from 'svelte';
+
+  onMount(async () => {
+    console.log(window.Bridge.getAppsURL())
+  })
 </script>
 
 <main>
