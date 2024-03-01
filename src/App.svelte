@@ -5,7 +5,7 @@
   import { onMount } from 'svelte';
 
   onMount(async () => {
-    console.log(window.Bridge.getAppsURL())
+    console.log(window.Bridge?.getAppsURL())
   })
 </script>
 
