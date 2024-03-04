@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@bridgelauncher/api": "^0.0.3",
-    "@bridgelauncher/api-mock": "^0.0.3"
+    "@bridgelauncher/api-mock": "^0.0.3",
+    "@tanstack/svelte-query": "^5.24.7"
   }
 }
